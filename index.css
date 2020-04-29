@@ -67,8 +67,9 @@ p{
   color: #4A3218FF;
 }
 
-.bg_col-sm-l{
-  /*background-color: cornflowerblue;*/
+.bg_col-sm_l{
+  background-color: transparent;
+
 }
 
 .bg_col-sm-r{
