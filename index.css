@@ -3,9 +3,26 @@ body
     background-color:#FFC059FF;
     text-align: center;
 }
-p, h1, h2, h6{
+h1, h2, h6{
   color: #4A3218FF;
 }
+
+h3{
+  color: #ffff;
+}
+
+h1, h2{
+  margin:0 0 .5em 0;
+  font-size:2.3em;
+  letter-spacing:0.05em;
+  font-weight:200;
+}
+
+p{
+  margin-bottom:2em;
+  color:#786f63;
+  font-size:.8em;
+  }
 
 .App-logo
 {
@@ -15,7 +32,7 @@ p, h1, h2, h6{
 
 .Blender-logo
 {
-  height: 20vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -25,8 +42,8 @@ p, h1, h2, h6{
   min-height: 4vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   margin-top: 2vmin;
   background-color: cornflowerblue;
@@ -39,13 +56,39 @@ p, h1, h2, h6{
 
 .alert_text
 {
-    margin-top: 12vmin;
+    margin-top: 2vmin;
     max-width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
 }
 
 .alert_text p{
   color: #4A3218FF;
+}
+
+.bg_col-sm-l{
+  /*background-color: cornflowerblue;*/
+}
+
+.bg_col-sm-r{
+  background-color: #FFCE5FFF;
+}
+.footer_bg{
+  background-color: #343233FF;
+}
+.a_none{
+  text-decoration: none;
+}
+
+.footer.rodape{
+    bottom:0;
+    position: absolute;
+    min-width: 100%;
+}
+
+.bg_border{
+  border-color: #4A3218FF;
+  border-width: thin;
+  border-style: solid;
 }
