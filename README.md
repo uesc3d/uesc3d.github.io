@@ -1,2 +1,2 @@
-# uesc3d.github.io
+# UESC-3D Project
 Site UESC-3D Project
