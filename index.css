@@ -1,0 +1,51 @@
+body
+{
+    background-color:#FFC059FF;
+    text-align: center;
+}
+p, h1, h2, h6{
+  color: #4A3218FF;
+}
+
+.App-logo
+{
+  height: 50vmin;
+  pointer-events: none;
+}
+
+.Blender-logo
+{
+  height: 20vmin;
+  pointer-events: none;
+}
+
+
+.App-header
+{
+  min-height: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin-top: 2vmin;
+  background-color: cornflowerblue;
+}
+
+.icon_base
+{
+    margin-top: 5vmin;
+}
+
+.alert_text
+{
+    margin-top: 12vmin;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert_text p{
+  color: #4A3218FF;
+}
